@@ -1,0 +1,340 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 5px;
+
+    &__menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &__item{
+    color: #fff;
+    list-style: none;
+    transition: 1s;
+    margin: 0 30px;
+    &__2{
+        color: #EFEDE8A6;
+    }
+    &__3{
+        color: #EFEDE8A6;
+    }
+    }
+    &__item:hover{
+    transform: scaleX(1.5) scaleY(1.5);
+    cursor: pointer;
+    }
+    .WORKOUT{
+        font-family: 'Inter';
+    }
+}
+body{
+    background: #171717;
+}
+.box{
+    position: relative;
+    max-width: 1200px;
+    
+    &__MAN{
+        position: absolute;
+        right: 0;
+        top: 100px;
+
+    }
+    &__img{
+        position: absolute;
+        bottom: 0px;
+        top: 40px;
+        right: -60px;
+
+
+}
+    &__img__second{
+        position: absolute;
+        bottom: 0px;
+        top: 0px;
+        right: 150px;
+    }
+    &__img__third{
+        position: absolute;
+        bottom: 0px;
+        top: 180px;
+        right: 380px;
+    }
+    &__title{
+        color: #fff;
+        font-size: 172px;
+        text-transform: uppercase;
+    }
+    &__text{
+        color: #EFEDE8A6;
+    }
+    &__button{
+        color: #fff;
+    } 
+    &__info{
+        color:#EFEDE8A6;
+    }
+    &__1{
+        border: 1px solid #232532;
+        background-color: #232532;
+        height: 640px;
+        width: 538px;
+        margin-left: 147px;
+    }
+    &__2{
+        border: 1px solid #323443;
+        background-color: #323443;
+        height: 640px;
+        width: 538px;
+        margin-left: 80px;
+    }
+}
+.Programs{
+    color: #EFEDE8A6;
+}
+.box__input{
+    display: none;
+}
+.main{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 100px;
+}
+.btn{
+    width: 155px;
+    height: 55px;
+    color: #fff;
+    border: 1px solid #E6533C;
+    background-color: #E6533C;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    font-style: normal;
+    margin-bottom: 112px;
+}
+.btn:hover{
+    width: 155px;
+    height: 55px;
+    color: #fff;
+    border: 1px solid #E6533C;
+    background-color: #E6533C;     
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    font-style: normal;
+}
+.Nike{
+    margin-bottom: 200px;
+}
+.Not__sure{
+    color: #fff;
+}
+.Block__first{
+    color: #FAFAF9;
+    border: 1px solid #323443;
+    width: 304px;
+    height: 190px;
+    background-color: #323443;
+    border-radius: 12px;
+    margin-right: 32px;
+}
+.Work{
+    font-size:16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 23px;
+    margin-left: 40px;
+}
+.Strelojka{
+    margin-left: 200px;
+    margin-bottom: 120px;
+    width: 70px;
+    &__2{
+        position: relative;
+        bottom: 244px;
+        left: 5px;
+    }
+    &__3{
+        position: relative;
+        left: 690px;
+        bottom: 330px;
+    }
+    &__4{
+        position: relative;
+        top: 102px;
+        left: 75px;
+    }
+}
+.Disabled {
+    pointer-events: none;
+    background-color: #48150e;
+}
+.Acess{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.Block{
+    display: flex;
+    margin-bottom: 150px;
+}
+.Block__second{
+    color: #FAFAF9;
+    background-color: #232532;
+    width: 304px;
+    height: 190px;
+    border: 1px solid #232532;
+    border-radius: 12px;
+    margin-right: 32px;
+}
+.Block__third{
+    color: #FAFAF9;
+    border: 1px solid #323443;
+    width: 304px;
+    height: 190px;
+    background-color: #323443;
+    border-radius: 12px;
+    margin-right: 32px;
+}
+.Block__fourth{
+    color: #FAFAF9;
+    border: 1px solid #4F5261;
+    width: 304px;
+    height: 190px;
+    background-color: #4F5261;
+    border-radius: 12px;
+    margin-right: 32px;
+}
+.Work__out__right{
+display: flex;
+justify-content: flex-end;
+margin-right: 34px;
+}
+.Out__of__home{
+    color: #FAFAF9;
+    font-size:40px;
+    position: relative;
+    bottom: 250px;
+}
+.Pi{
+    color: #EFEDE8A6;
+    position: relative;
+    bottom: 250px;
+    &__2{
+        color: #EFEDE8A6;
+        position: relative;
+        left: 690px;
+        bottom: 380px;
+    }
+    &__3{
+        color: #EFEDE8A6;
+        text-align: center;
+    }
+    &__4{
+        color: #EFEDE8A6;
+        text-align: center;
+    }
+}
+.See__More{
+    color: #0070C9;
+    text-decoration: none;
+    bottom: 244px;
+    position: relative;
+    &__2{
+        position: relative;
+        bottom: 329px;
+        text-decoration: none;
+        left: 678px;
+    }
+    &__3{
+        color: #0070C9;
+        text-decoration: none;
+        position: relative;
+        top: 102px;
+        left: 68px;
+        bottom:77px;
+    }
+
+}
+.Bar__left{
+    margin-left: 41px;
+}
+.Get__More{
+    display: flex;
+    justify-content: flex-end;
+    color: #FAFAF9;
+    position: relative;
+    bottom: 390px;
+}
+.Member{
+    font-size: 50px;
+    color: #FAFAF9;
+    margin-left: 141px;
+}
+.Path{
+    margin-left: 144px;
+}
+.Join{
+    text-align: center;
+    margin-top: 71px;
+    color: #FAFAF9;
+    &__2{
+        text-align: center;
+        margin-top: 71px;
+        color: #FAFAF9;
+    }
+}
+.Boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.Join__now{
+    background-color: #0070C9;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-left: 68px;
+    margin-top: 25px;
+}
+.Start{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    background-color: #FAFAF9;
+    width: 90px;
+    height: 25px;
+
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 50px;
+    right: 25px;
+}
+/* Стилі для дуже великих екранів (дисплей 1200рх і більше).
+Записуються без медіа-запитів, тому що контрольна точка не має верхньої межі. */
+
+/* Стилі для великих екранів (дисплей максимум 1199рх) */
+@media (max-width: 1199px) {
+    .box__MAN{
+        display: none;
+    }
+}
+
+/* Стилі для середніх екранів (дисплей максимум 991рх) */
+    @media (max-width: 991px) {}
+
+/* Стилі для малих екранів (дисплей максимум 767рх) */
+    @media (max-width: 767px) {}
+/* Стилі для дуже малих екранів (дисплей максимум 575рх) */
+    @media (max-width: 575px) {}
