@@ -164,14 +164,10 @@ body{
         left: 5px;
     }
     &__3{
-        position: relative;
-        left: 690px;
-        bottom: 330px;
+
     }
     &__4{
-        position: relative;
-        top: 102px;
-        left: 75px;
+
     }
 }
 .Disabled {
@@ -226,13 +222,9 @@ margin-right: 34px;
 }
 .Pi{
     color: #EFEDE8A6;
-    position: relative;
-    bottom: 250px;
     &__2{
         color: #EFEDE8A6;
-        position: relative;
-        left: 690px;
-        bottom: 380px;
+
     }
     &__3{
         color: #EFEDE8A6;
@@ -246,21 +238,16 @@ margin-right: 34px;
 .See__More{
     color: #0070C9;
     text-decoration: none;
-    bottom: 244px;
-    position: relative;
+
     &__2{
-        position: relative;
-        bottom: 329px;
+
         text-decoration: none;
         left: 678px;
     }
     &__3{
         color: #0070C9;
         text-decoration: none;
-        position: relative;
-        top: 102px;
-        left: 68px;
-        bottom:77px;
+
     }
 
 }
@@ -270,9 +257,7 @@ margin-right: 34px;
 .Get__More{
     display: flex;
     justify-content: flex-end;
-    color: #FAFAF9;
-    position: relative;
-    bottom: 390px;
+
 }
 .Member{
     font-size: 50px;
@@ -317,9 +302,7 @@ margin-right: 34px;
 .button{
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    top: 50px;
-    right: 25px;
+
 }
 /* Стилі для дуже великих екранів (дисплей 1200рх і більше).
 Записуються без медіа-запитів, тому що контрольна точка не має верхньої межі. */
@@ -328,6 +311,60 @@ margin-right: 34px;
 @media (max-width: 1199px) {
     .box__MAN{
         display: none;
+    }
+    .header__item{
+        color: rgb(80, 253, 0);
+    }
+    .box__img{
+        display: none;
+    }
+    .box__img__second{
+        display: none;
+    }
+    .box__img__third{
+        display: none;
+    }
+    .box__title{
+        text-align: center;
+    }
+    .box__text{
+        text-align: center;
+    }
+    .box{
+        align-items: center;
+        border: 1px solid #ffffff;
+        display: flex;
+        flex-direction: column;
+    }
+    .Block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .Block__first{
+        margin: 20px auto;
+    }
+    .Block__fourth{
+        margin: 20px auto;
+    }
+    .Block__second{
+        margin: 20px auto;
+    }
+    .Block__third{
+        margin: 20px auto;
+    }
+    .Not__sure{
+        text-align: center;
+    }
+    .Programs{
+        text-align: center;
+    }
+    .Out__of__home{
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+        text-align: center;
     }
 }
 

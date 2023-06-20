@@ -172,17 +172,6 @@ body {
   bottom: 244px;
   left: 5px;
 }
-.Strelojka__3 {
-  position: relative;
-  left: 690px;
-  bottom: 330px;
-}
-.Strelojka__4 {
-  position: relative;
-  top: 102px;
-  left: 75px;
-}
-
 .Disabled {
   pointer-events: none;
   background-color: #48150e;
@@ -243,14 +232,9 @@ body {
 
 .Pi {
   color: rgba(239, 237, 232, 0.6509803922);
-  position: relative;
-  bottom: 250px;
 }
 .Pi__2 {
   color: rgba(239, 237, 232, 0.6509803922);
-  position: relative;
-  left: 690px;
-  bottom: 380px;
 }
 .Pi__3 {
   color: rgba(239, 237, 232, 0.6509803922);
@@ -264,22 +248,14 @@ body {
 .See__More {
   color: #0070C9;
   text-decoration: none;
-  bottom: 244px;
-  position: relative;
 }
 .See__More__2 {
-  position: relative;
-  bottom: 329px;
   text-decoration: none;
   left: 678px;
 }
 .See__More__3 {
   color: #0070C9;
   text-decoration: none;
-  position: relative;
-  top: 102px;
-  left: 68px;
-  bottom: 77px;
 }
 
 .Bar__left {
@@ -289,9 +265,6 @@ body {
 .Get__More {
   display: flex;
   justify-content: flex-end;
-  color: #FAFAF9;
-  position: relative;
-  bottom: 390px;
 }
 
 .Member {
@@ -342,9 +315,6 @@ body {
 .button {
   display: flex;
   justify-content: flex-end;
-  position: relative;
-  top: 50px;
-  right: 25px;
 }
 
 /* Стилі для дуже великих екранів (дисплей 1200рх і більше).
@@ -353,6 +323,60 @@ body {
 @media (max-width: 1199px) {
   .box__MAN {
     display: none;
+  }
+  .header__item {
+    color: rgb(80, 253, 0);
+  }
+  .box__img {
+    display: none;
+  }
+  .box__img__second {
+    display: none;
+  }
+  .box__img__third {
+    display: none;
+  }
+  .box__title {
+    text-align: center;
+  }
+  .box__text {
+    text-align: center;
+  }
+  .box {
+    align-items: center;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  .Block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  .Block__first {
+    margin: 20px auto;
+  }
+  .Block__fourth {
+    margin: 20px auto;
+  }
+  .Block__second {
+    margin: 20px auto;
+  }
+  .Block__third {
+    margin: 20px auto;
+  }
+  .Not__sure {
+    text-align: center;
+  }
+  .Programs {
+    text-align: center;
+  }
+  .Out__of__home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    text-align: center;
   }
 }
 /* Стилі для середніх екранів (дисплей максимум 991рх) */
